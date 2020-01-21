@@ -1,6 +1,6 @@
-class Cicle():
-	def area(self,radius):
-		area=3.14*float(radius)*float(radius)
+class Rectangle():
+	def area(self,length,breath):
+		area=length*breath
 		return area
-a=Cicle()
-print(a.area(12))
+a=Rectangle()
+print(a.area(12,34))
